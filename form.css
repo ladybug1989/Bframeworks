@@ -1,0 +1,30 @@
+.personal_info legend {
+	font-family: Lato, seif;
+  font-size: 400;
+  font-weight: bold;
+
+}
+.personal_info label{
+  float: left;
+  width: 100px;
+  font-family: Lato, seif;
+  font-size: 400;
+}
+fieldset {
+	width: 300px;
+}
+
+.personal_info {
+	background-color: #FF3377;
+}
+
+
+
+.lform{
+	width: 370px;
+	height: 300px;
+	background-color: #3faea0;
+	border-radius: 10px;
+	box-shadow: 0 0 30px #358077;
+	text-align: center;
+}

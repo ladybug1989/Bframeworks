@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ABC;
+	padding: 50px;
+}
+h1 {
+	text-align: center;
+	border-bottom: 2px solid #009;
+	margin-bottom: 50px;
+}
+#navmenu, .sub1, .sub2 {
+	list-style: none;
+	font-size: 10px;
+}
+ #navmenu li {
+
+ 	width: 125px;
+ 	text-align: center;
+ 	position: relative;
+ 	float: left;
+ }
+
+#navmenu .subl a {
+	margin-top: 5px;
+} 
+#navmenu .subl li {
+	
+}
+#navmenu .sub2 a {
+	margin-left: 10px;
+}
+#navmenu li:hover > a {
+	background-color: #CFC;
+}
+#navmenu li:hover a:hover {
+	background-color: blue;
+}
+#navmenu ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: 0px;
+}
+  #navmenu a {
+  	text-decoration: none;
+  	display: block;
+  	width: 125px;
+  	height: 25px; 
+  	line-height: 25px;
+  	background-color: #FFF;
+  	border-radius: 5px;
+  }
+  #navmenu ul .sub2{
+  	display: none;
+  	position: absolute;
+  	top: 0px;
+  	left: 121px;
+  }
+  #navmenu li:hover .sub1 {
+  	display: block;
+  }
+ #navmenu .sub1 li:hover .sub2 {
+  	display: block;
+  }
+
+/*--------vertical nav menu ------*/
+
+#navmenu2 {
+	list-style: none;
+
+}
+
+#navmenu2  li a {
+	text-decoration: none;
+	font-family: cursive, sans-serif;
+	background-color: purple;
+	color: white;
+	display: block;
+	width: 80px;
+	margin: 5px;
+	text-align: center;
+	padding:10px;
+	line-height: 25px;
+	height: 25px;
+}
+
+#navmenu2  li a:hover {
+	background-color: yellow;
+}
+
